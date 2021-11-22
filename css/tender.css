@@ -1,0 +1,175 @@
+.accreditation {
+    background-color: #F0F0FF;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    padding: 15px 0;
+    margin: 100px 0;
+}
+
+.accreditation .headling_accredit {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.4%;
+    text-align: center;
+    color: #4A4D4A;
+    margin-bottom: 14px;
+}
+
+.accreditation .headling_accredit span {
+    color: #FFAF37;
+}
+
+.accreditation .under_headling_accredit {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 122%;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.accreditation .under_headling_accredit span {
+    color: #FFAF37;
+}
+
+.accreditation .columns_accred {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    text-align: center;
+    width: 1139px;
+    align-items: center;
+}
+
+.accreditation .column_accred1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #4A4D4A;
+    align-items: center;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.accreditation .column_accred1 span {
+    color: #FFAF37;
+}
+
+.accreditation .column_accred12 {
+    text-align: center;
+    align-items: center;
+}
+
+.company_recommendations .headling_company {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.4%;
+    text-align: center;
+    color: #4A4D4A;
+    margin-bottom: 30px;
+}
+
+#recommends .two_carts {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#recommends .neob {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 19px;
+}
+
+#recommends .rec {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 19px;
+}
+
+#recommends .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFAF37;
+    margin-bottom: 12px;
+}
+
+#recommends p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+#recommends .under_headling_company {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #4A4D4A;
+    margin-bottom: 20px;
+}
+
+#recommends .columns_company {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 168px;
+}
+
+#recommends .column1 {
+    display: flex;
+}
+
+#recommends .text_company {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4A4D4A;
+    margin-left: 13px;
+}
+
+#accred {
+    background: #F0F0FF;
+    padding: 20px 0;
+}
+
+.etap {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    grid-gap: 25px;
+}
+
+.etap img {
+    margin-right: 25px;
+}
+
+.etap p {
+    text-align: left !important;
+}
+
+#recommends h3.text-center {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 122%;
+    color: #4A4D4A;
+    text-align: center;
+}

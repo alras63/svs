@@ -1,0 +1,123 @@
+ul, body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#categories_id {
+    margin-top: 70px;
+}
+
+.categories .category {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    display: inline-flex;
+    align-items: stretch;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.categories .category:first-child {
+    background-color: #F0F0FF;
+}
+
+.categories .columns_categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.categories .text_category1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.categories .category1 {
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.25);
+    /* display: inline-flex; */
+    align-items: center;
+    /* justify-content: center;
+    flex-direction: column; */
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px 10px;
+}
+
+.categories .text_arrow_categogy {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+
+.categories .text_category {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4A4D4A;
+}
+
+.categories a {
+    color: #4A4D4A;
+    text-decoration: none;
+}
+
+.categories .img_category {
+    width: 180px;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories .text_category span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 122%;
+    
+    color: #4A4D4A;
+}
+
+.categories .button_category {
+    max-width: 283px;
+    max-height: 70px;
+    background: #FFAF37;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 30px;
+    margin-bottom: 70px;
+    margin-top: 60px;
+}
+
+.categories .category2 {
+    min-width: 330px;
+    min-height: 248px;
+    background: #ffffff;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.25);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px 10px;
+}
+
+.categories .category2 .arrow_category {
+    display: flex;
+    justify-content: flex-end;
+    align-self: end;
+    align-items: flex-end;
+}

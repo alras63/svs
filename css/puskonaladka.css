@@ -1,0 +1,66 @@
+#potreb .section-title {
+    text-align: center;
+}
+
+#potreb .section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title .icon {
+    margin-right: 20px;
+}
+
+
+.gtc-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+#potreb .gtc-1-1-1 {
+    text-align: center;
+}
+
+.zad-item {
+
+    background: #FFFFFF;
+    /* карточки */
+
+    box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    /* иконки */
+    
+    color: #4A4D4A;
+}
+
+.zad-item .icon {
+    margin-bottom: 10px;
+}
+
+#zad {
+    min-height: 300px;
+    background-color: #F0F0FF;
+    padding: 20px 0;
+}
+
+.zad-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}

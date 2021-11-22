@@ -1,0 +1,130 @@
+.repair_optimization .columns_rep_opt {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.repair_optimization .cart_rep_opt1 {
+    min-width: 330px;
+    min-height: 248px;
+    background: #F0F0FF;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    padding: 43px;
+}
+
+.repair_optimization .cart_rep_opt2 {
+    min-width: 330px;
+    min-height: 248px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 25px 19px;
+}
+
+.repair_optimization .img_text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 35px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.repair_optimization .text_rep_opt21 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #4A4D4A;
+    margin-bottom: 8px;
+}
+
+.repair_optimization .text_rep_opt22 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #1F347B;
+
+}
+
+.repair_optimization .but_rep_opt {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4A4D4A;
+    text-decoration: none;
+    text-align: end;
+
+}
+
+.repair_optimization .text_rep_opt1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.4%;
+    text-align: center;
+    color: #4A4D4A;
+
+}
+
+
+#statistics {
+    min-height: 400px;
+    background: #F0F0FF;
+    margin-top: 50px;
+}
+
+.headling_statiatics {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.4%;
+    color: #4A4D4A;
+    padding-top: 30px;
+}
+
+.text_statistic1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 122%;
+    /* or 29px */
+
+    text-align: center;
+
+    /* иконки */
+
+    color: #4A4D4A;
+}
+
+.text_statistic2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    /* иконки */
+
+    color: #4A4D4A;
+
+}
+
+.column_statistic1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.column_statistic1 a {
+    margin-top: 30px;
+}

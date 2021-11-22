@@ -1,0 +1,115 @@
+.header-wrap {
+  margin-left: 30px;
+  width: 100%;
+}
+.button_orange--small {
+  background: #ffaf37;
+  padding: 13px 31px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+.links a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  text-align: center;
+  color: #4a4d4a;
+  text-decoration: none;
+  border-bottom: 2px dotted #4a4d4a;
+  margin: 0 22px;
+}
+
+.links a:first-child {
+  margin-left: 0;
+}
+.links a:last-child {
+  margin-right: 0;
+}
+
+.row-a2 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row-a2 .about {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  color: #4a4d4a;
+}
+
+.icon-phone {
+  display: flex;
+  align-items: center;
+}
+.icon-phone span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.3rem;
+  color: #4a4d4a;
+  margin-left: 15px;
+}
+
+.search-line input {
+  padding: 10px 20px;
+  min-width: 600px;
+}
+
+.contact .icon {
+  display: flex;
+  align-items: center;
+  margin: 0 25px;
+}
+
+.contact:last-child .icon {
+    margin-right: 0;
+} 
+
+.contact span,
+.contact a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 122%;
+  color: #4a4d4a;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-self: flex-end;
+  
+}
+
+.contact span.big {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 149.3%;
+  color: #4a4d4a;
+}
+.contact span.medium {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 149.3%;
+    color: #4A4D4A;
+}

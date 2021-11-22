@@ -1,0 +1,60 @@
+.napr {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.4%;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.grid-block-oborud {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid-oborud-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    min-height: 287px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.grid-oborud-item:nth-child(1) {
+    background-image: url('../assets/ci1.png');
+    justify-content: flex-end;
+}
+
+.grid-oborud-item:nth-child(2) {
+    background-image: url('../assets/ci2.png');
+}
+
+.grid-oborud-item:nth-child(3) {
+    background-image: url('../assets/ci3.png');
+    justify-content: flex-end;
+}
+
+.grid-oborud-item:nth-child(4) {
+    background-image: url('../assets/ci4.png');
+    justify-content: flex-end;
+}
+
+.grid-oborud-item:nth-child(5) {
+    background-image: url('../assets/ci5.png');
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.grid-oborud-item:nth-child(6) {
+    background-image: url('../assets/ci6.png');
+}

@@ -1,0 +1,164 @@
+#steps {
+    min-height: 400px;
+    width: 100vw;
+    background: #F0F0FF;
+    padding: 30px 0;
+    box-sizing: border-box;
+    margin: 30px 0;
+}
+
+.steps-wrap .step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.results {
+    position: relative;
+    min-height: 285px;
+}
+
+.results img {
+    position: absolute;
+
+}
+
+.res-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 122%;
+    text-align: center;
+    color: #4A4D4A;
+
+}
+
+.res-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #4A4D4A;
+}
+
+.res-text-wrap {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 300px;
+}
+
+#optimize .section-title {
+    text-align: center;
+}
+
+#optimize .section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title .icon {
+    margin-right: 20px;
+}
+
+.block-areas {
+    display: grid;
+    grid-template-areas: "a b b b"
+        "c c d e";
+    grid-gap: 20px;
+}
+
+.block-areas .row {
+    display: flex;
+    align-items: center;
+}
+
+.block-areas .row .num {
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFAF37;
+
+}
+
+.block-areas .row .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4A4D4A;
+
+}
+
+
+.zadacha {
+    background: #F0F0FF;
+    box-shadow: 0px 0px 28px #F0F0FF;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.reshenie {
+    background: #F0F0F0;
+    box-shadow: 0px 0px 28px #F0F0FF;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.rez {
+    background: #FFF9DC;
+    box-shadow: 0px 0px 28px #F0F0FF;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.vygod {
+    background: #E3E1FF;
+    box-shadow: 0px 0px 28px #F0F0FF;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vygod .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4A4D4A;
+}
+
+.vygod .cifra {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFAF37;
+
+}
